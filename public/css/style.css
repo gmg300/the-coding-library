@@ -10,8 +10,13 @@ body {
   margin: 0px;
   min-height: 100%;
   width: 100%;
-  background-color: #78909c;
   color: #4a4a4a;
+  background-image: url("../assets/code_3.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #78909c;
+
 }
 
 section.section {
@@ -32,7 +37,7 @@ section.section.pt-3 {
   padding-bottom: .5rem;
 }
 
-.form-size {
+.content-size {
   width: 70%;
 }
 
@@ -47,7 +52,7 @@ section.section.pt-3 {
 .form-container {
   border: solid 2px #18dbd0;
   border-radius: 5px 5px;
-  background-color: #f4f4f9;
+  background-color: rgba(244, 244, 249, .85);
 }
 
 .label {
@@ -296,13 +301,14 @@ a.card-footer-item:hover {
   .form-title {
     margin-bottom: 1rem;
   }
-  .form-size {
-    width: 95%;
-  }
+  .content-size,
   .tag-container {
-    width: 95%;
+    width: 100%;
   }
-  .page-title, .page-logo {
+  .page-title,
+  .page-title:hover,
+  .page-logo,
+  .page-logo:hover {
     font-size: 1.25rem;
   }
   #saved-resources-title {
